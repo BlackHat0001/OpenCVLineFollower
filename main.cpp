@@ -332,9 +332,9 @@ int main( int argc, char** argv )
         while(currentCapture.empty())
             currentCapture = captureFrame(); // Capture a frame from the camera and store in a new matrix variable
 
-        //int ID = (int) LookForSymbol(purpleRanges);
+        int ID = (int) LookForSymbol(purpleRanges);
 
-        /*
+        
 
         switch (ID){
 
@@ -369,7 +369,7 @@ int main( int argc, char** argv )
 
         }
 
-        */
+        
 
         //Add a function that detects what colours are currently seen and will switch back to black the current colour is not found
         //for  more than a certain time
