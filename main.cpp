@@ -1,3 +1,15 @@
+/*
+    File: main.cpp
+	
+    Author: Daniel Marcovecchio 
+    Author URI: https://github.com/BlackHat0001
+
+    Description: Symbol Recognition and Optical line following for the Raspberry Pi
+                 onboard the EEEBot
+
+    Version: 1.1.0 Release
+*/
+
 // Include files for required libraries
 #include <stdio.h>
 #include <opencv2/imgproc.hpp>
