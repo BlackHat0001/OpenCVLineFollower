@@ -353,28 +353,28 @@ int main( int argc, char** argv )
             case 1: {
                 std::cout << "Detected Symbol: Circle\n";
 
-                //colourToUse = redRanges;
+                GetLinePosition(redRanges);
 
                 break;
             }
             case 2: {
                 std::cout << "Detected Symbol: Star\n";
 
-                //colourToUse = {blackRanges[0], blackRanges[1], blackRanges[2], blackRanges[3], blackRanges[4], blackRanges[5]};
+                GetLinePosition(blueRanges);
 
                 break;
             }
             case 3: {
                 std::cout << "Detected Symbol: Triangle\n";
 
-                //colourToUse = {blackRanges[0], blackRanges[1], blackRanges[2], blackRanges[3], blackRanges[4], blackRanges[5]};
+                GetLinePosition(greenRanges);
 
                 break;
             }
             case 4: {
                 std::cout << "Detected Symbol: Umbrella\n";
 
-                //colourToUse = {blackRanges[0], blackRanges[1], blackRanges[2], blackRanges[3], blackRanges[4], blackRanges[5]};
+                GetLinePosition(yellowRanges);
 
                 break;
             }
@@ -388,7 +388,7 @@ int main( int argc, char** argv )
 
 
 
-        GetLinePosition(greenRanges);
+        
 
         currentCapture.release();
 
